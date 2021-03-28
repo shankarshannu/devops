@@ -6,5 +6,7 @@ LABEL organization ="saikumardevops"
 RUN yum update -y && yum install httpd -y
 # EXPOSE for Port access
 EXPOSE 8080
+ENTRYPOINT fot starting a container
 ENTRYPOINT ["echo"]
+CMD for starting a container
 CMD ["echo", "saiworld"]
